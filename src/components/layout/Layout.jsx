@@ -1,6 +1,7 @@
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
-import "../../css/Layout.css";
+// import "../../css/Layout.css";
+
 
 const Layout = ({ children }) => {
   return (
