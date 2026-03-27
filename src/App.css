@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 0 5px gray;
+}
+
+.green {
+  background: #22c55e;
+  color: white;
+}
+
+.orange {
+  background: #f59e0b;
+  color: white;
+}
+
+.red {
+  background: #ef4444;
+  color: white;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.Pending {
+  background: red;
+}
+
+.InProgress {
+  background: orange;
+}
+
+.Completed {
+  background: green;
+}

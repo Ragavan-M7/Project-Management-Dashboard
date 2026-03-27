@@ -1,0 +1,25 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.main-content {
+  margin-left: 250px;
+}
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+    position: relative;
+    height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
